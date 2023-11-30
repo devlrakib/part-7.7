@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+                                                        /* Visibility Code CSS Apply */
+
+
+:root{
+        --primary-color:steelblue;
+        --secondary-color:slateblue;
+        --third-color:red;
+        --single-border:2px solid black;
+} 
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid purple;
+}
+
+#box-3{
+    color: peru;
+    /* display: none; */
+    visibility: hidden;
+}
+
+                                                        /* Visibility Code CSS Apply */
+
+                                                        /* Custom CSS Apply */
+h1{
+    /* color: slateblue;
+    color: steelblue; */
+
+    color: var(--primary-color);
+}
+
+h3{
+    color: var(--secondary-color);
+    border: var(--single-border);
+    width: calc(100% - 800px);  
+}
+
+.pond{
+    color: var(--third-color);
+}
+
+
+
